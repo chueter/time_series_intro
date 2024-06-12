@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "test-codes"
+version = "0.1.0"
+description = ""
+authors = ["chueter <17316671+chueter@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "test_codes"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^2.2.2"
+datetime = "^5.5"
+matplotlib = "^3.9.0"
+statsmodels = "^0.14.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
